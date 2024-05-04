@@ -4,9 +4,9 @@ using namespace std;
 
 signed main()
 {
-    int t;
-    cin >> t;
-    while (t>0)
+    int q;
+    cin >> q;
+    while (q>0)
     {
         int n, sum = 0;
         cin >> n;
@@ -34,6 +34,6 @@ signed main()
        cout<<count<<endl;
     }
     else cout<<"2"<<endl;
-    t--;
+    q--;
     }
 }
