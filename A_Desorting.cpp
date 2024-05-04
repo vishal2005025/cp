@@ -6,7 +6,7 @@ signed main()
 {
     int t;
     cin>>t;
-    while(t--){
+    while(t>0){
         int n,sum=1000000009;
         cin>>n;
         int a[n];
@@ -24,6 +24,7 @@ signed main()
         else
         cout<<(sum)/2 +1<<'\n';
         //cout<<sum<<'\n';
+        t--;
     }
     return 0;
 }
